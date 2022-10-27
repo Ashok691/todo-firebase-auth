@@ -1,0 +1,67 @@
+.main-container{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.signin-header{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    /* background-color: whitesmoke; */
+    color:rgb(119, 87, 87);
+}
+.main-background{
+    display: flex;
+}
+.background-left{
+    width: 50%;
+    height:90vh;
+    /* background-color:rgb(57, 57, 167); */
+    background-color: rgb(48, 192, 192);
+}
+.background-right{
+    width: 50%;
+    height: 90vh;
+    background-color: whitesmoke;
+}
+.card-left{
+    width: 90%;
+    height: 75%;
+    margin: 10% 0 0% 20%;
+    background-color: whitesmoke;
+    color:rgb(48, 192, 192);
+    font-size: 35px;
+}
+.card-left span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.card-right{
+    width: 80%;
+    height: 75%;
+    margin: 10% 20% 0 0;
+    background-color: rgb(48, 192, 192);
+}
+
+.backgroundImage{
+    width: 100vw;
+    height: 100vh;
+}
+.google{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    flex-direction: column; */
+
+    width: 286px;
+    height: 75px;
+    font-size: 35px;
+    position: relative;
+    top: 50%;
+    /* left: 40%; */
+    border: none;
+    transform: translateY(-50%);
+    color: rgb(48, 192, 192);
+}

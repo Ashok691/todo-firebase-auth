@@ -1,0 +1,21 @@
+.input-form{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 100%; */
+}
+
+.input-filed{
+    
+    padding: 10px;
+    border: none;
+}
+.add-button{
+    background-color: #ced4da;
+    border:none;
+    width: 40%;
+    color: #ef587b;
+    padding: 10px;
+}
